@@ -152,6 +152,9 @@ exports.parse = function($, options){
 		}
 	});
 
+	console.log('=========================')
+	console.log(meta)
+	console.log('=========================')
 
 	// If no 'og:title', use title tag
 	if(!meta.hasOwnProperty('title')){
